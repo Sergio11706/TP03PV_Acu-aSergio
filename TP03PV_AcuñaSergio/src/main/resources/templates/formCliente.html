@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Formulario</title>
+</head>
+<body>
+	
+	<header style="margin-left: 15px; text-decoration: underline">
+		<h1>Programacion Java</h1>
+	</header>
+	
+	<aside style="background-color: #092327; display: block; padding: 10px ; margin: 0">
+		<nav>
+			<ul style="list-style: none">
+				<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec1">¿Qué es Java?</a></li>
+	        	<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec2">Estructura de un codigo en Java</a></li>
+    	    	<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec3">Tipos de Datos en java</a></li>
+				<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/formulario">Formulario</a></li>
+			</ul>
+		</nav>
+	</aside>
+	
+	<main>
+		<h1>Formulario de Datos</h1>
+		<form action="">
+			<label for="dni">DNI: </label>
+			<input id="dni" type="number" placeholder="Ingrese el DNI" name="dni" required></input>
+			<br>
+			
+			<label for="nombre">Nombre: </label>
+			<input id="nombre" type="text" placeholder="Ingrese Nombre" name="nombre" required></input>
+			<br>
+			
+			<label for="apellido">Apellido: </label>
+			<input id="apellido" type="text" placeholder="Ingrese Apellido" name="apellido" required></input>
+			<br>
+			
+			<label for="nacimiento">Fecha de Nacimiento: </label>
+			<input id="nacimiento" type="date" placeholder="Ingrese Fecha de Nacimiento" name="nacimiento" required></input>
+			<br>
+			
+			<div>
+				<label for="generoM">Masculino </label>
+				<input id="generoM" type="radio" value="Masculino" name="genero"></input>
+				<br>
+			
+				<label for="generoF">Femenino </label>
+				<input id="generoF" type="radio" value="Femenino" name="genero"></input>
+				<br>
+			
+				<label for="generoX">X </label>
+				<input id="generoX" type="radio" value="X" name="genero"></input>
+				<br>
+			</div>
+			
+			<label for="correoElectronico">Ingrese correo electronico: </label>
+			<input id="correoElectronico" type="email" placeholder="Ingrese Correo Electronico" name="correoElectronico" required></input>
+			<br>
+			
+			<label for="domicilio">Ingrese Domicilio: </label>
+			<input id="domicilio" type="text" placeholder="Ingrese Domicilio" name="Domicilio" required></input>
+			<br>
+			
+			<label for="provincia">Provincia: </label>
+			<select id="provincia" name="provincia" required>
+				<option value="Jujuy">Jujuy</option>
+				<option value="Salta">Salta</option>
+				<option value="Tucuman">Tucuman</option>
+				<option value="Chaco">Chaco</option>
+				<option value="Formosa">Formosa</option>
+				<option value="Cordoba">Cordoba</option>
+				<option value="BuenosAires">Buenos Aires</option>
+				<option value="CiudadAutonomaDeBuenosAires">Ciudad Autonoma de Buenos Aires</option>
+				<option value="SantaFe">Santa Fe</option>
+				<option value="LaRioja">La Rioja</option>
+				<option value="Catamarca">Catamarca</option>
+				<option value="Mendoza">Mendoza</option>
+				<option value="SantiagoDelEstero">Santiago del Estero</option>
+				<option value="SanLuis">San Luis</option>
+				<option value="SanJuan">San Juan</option>
+				<option value="LaPampa">La Pampa</option>
+				<option value="SantaCruz">Santa Cruz</option>
+				<option value="Neuquen">Neuquen</option>
+				<option value="EntreRios">Entre Rios</option>
+				<option value="Misiones">Misiones</option>
+				<option value="RioNegro">Rio Negro</option>
+				<option value="TierraDelFuego">Tierra del Fuego</option>
+				<option value="Chubut">Chubut</option>
+				<option value="Corrientes">Corrientes</option>
+			</select>
+			<br>
+			
+			<label for="numT">Numero de Telefono: </label>
+			<input id="numT" type="number" required placeholder="Ingrese Numero de Telefono" name="numT"></input>
+			<br>
+			
+			<label for="catI">Categorias de Interes</label>
+			<div>
+				<label>Futbol</label>
+				<input id="catI" type="checkbox" name="catI"></input>
+				<br>
+				
+				<label>Turismo</label>
+				<input id="catI" type="checkbox" name="catI"></input>
+				<br>
+				
+				<label>Gatronomia</label>
+				<input id="catI" type="checkbox" name="catI"></input>
+				<br>
+				
+				<label>Monumetos Historicos</label>
+				<input id="catI" type="checkbox" name="catI"></input>
+				<br>
+			</div>
+			
+			<label for="sug">Sugerencia </label>
+			<br>
+			<textarea rows="10" cols="50" name="sug" id="sug" placeholder="Ingrese Sugerencias"></textarea>
+			<br>
+			
+			<label for="pwd">Password: </label>
+			<input id="pwd" type="password" placeholder="Ingrese Password" name="pwd" minlength="4" maxlength="8" required></input>
+			<br>
+			
+			<label for="pwdN">Repetir Password: </label>
+			<input id="pwdN" type="password" placeholder="Ingrese Password Nuevamente" name="pwdN" minlength="4" maxlength="8" required></input>
+			<br>
+			
+			<label>Acepto los terminos y condiciones</label>
+			<input id="tyc" type="checkbox" name="tyc" required></input>
+			<br>
+			
+			<label>Acepto recibir informacion relativa de la empresa</label>
+			<input id="info" type="checkbox" name="info" required></input>
+			<br>
+			
+			<input type="button" value="Cancelar"></input>
+			<input type="submit" value="Guardar"></input>
+		</form>
+	</main>
+	
+	<footer style="background-color: #092327; display: block; padding: 10px ; margin: 0">
+		<a href="lionelmessi10@gmail.com" style="text-decoration: none; color: white"><h3>Correo de Contancto: lionelmessi10@gmail.com</h3></a>
+		<a href="https://www.facebook.com/" style="text-decoration: none; color: white"><h3>Facebook</h3></a>
+		<a href="https://www.instagram.com/" style="text-decoration: none; color: white"><h3>Instagram</h3></a>
+		<a href="https://twitter.com/" style="text-decoration: none; color: white"><h3>Twitter</h3></a>
+	</footer>
+	
+</body>
+</html>
