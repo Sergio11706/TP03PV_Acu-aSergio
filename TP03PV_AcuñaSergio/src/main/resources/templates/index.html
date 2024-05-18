@@ -2,36 +2,37 @@
 <html lang="es">
 <head>
 <meta charset="UTF-8">
+<link rel="stylesheet" href="/css/styles.css">
 <title>TP03 Programación Visual AcuñaSergio</title>
 </head>
 
-<body style="margin: 0; display: block; background-color: #175d75; color: white">
+<body>
 	
-	<header style="margin-left: 15px; text-decoration: underline">
+	<header id="header1">
 		<h1>Programacion Java</h1>
 	</header>
 	
-	<aside style="background-color: #092327; display: block; padding: 10px ; margin: 0">
-		<nav>
-			<ul style="list-style: none">
-				<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec1">¿Qué es Java?</a></li>
-	        	<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec2">Estructura de un codigo en Java</a></li>
-    	    	<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec3">Tipos de Datos en java</a></li>
-				<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/formulario">Formulario</a></li>
+	<aside>
+		<nav class="nav">
+			<ul>
+				<li class="li"><a class="a" href="/index#sec1">¿Qué es Java?</a></li>
+	        	<li class="li"><a class="a" href="/index#sec2">Estructura de un codigo en Java</a></li>
+    	    	<li class="li"><a class="a" href="/index#sec3">Tipos de Datos en java</a></li>
+				<li class="li"><a class="a" href="/formulario">Formulario</a></li>
 			</ul>
 		</nav>
 	</aside>
 	
-	<main style="background-color: #104249; padding: 10px">
+	<main class="main">
 	
-		<section id="sec1" style="margin-left: 15px">
-			<h2>¿Qué es Java?</h2>
-			<p> Es un lenguaje de programación de alto nivel. Su creador James Gosling lo define en base a sus características: sencillo, orientado a objetos, distribuido, interpretado, robusto, seguro, independiente de las arquitecturas, portable, eficaz, multitarea y dinámico. Antes de poder describir en detalle cada una de estas características es conveniente indicar como funciona el proceso de desarrollo de una aplicación Java.</p>	
+		<section id="sec1" class="sec">
+			<h2 class="h2">¿Qué es Java?</h2>
+			<p class="p"> Es un lenguaje de programación de alto nivel. Su creador James Gosling lo define en base a sus características: sencillo, orientado a objetos, distribuido, interpretado, robusto, seguro, independiente de las arquitecturas, portable, eficaz, multitarea y dinámico. Antes de poder describir en detalle cada una de estas características es conveniente indicar como funciona el proceso de desarrollo de una aplicación Java.</p>	
 			
-			<h2>Aplicaciones</h2>
-			<p>Java se utiliza en una variedad de aplicaciones, desde aplicaciones empresariales de gran escala hasta aplicaciones móviles y de escritorio. Es el lenguaje principal para el desarrollo de aplicaciones Android, lo que lo convierte en una opción popular para los desarrolladores móviles. Además, Java es ampliamente utilizado en el desarrollo de aplicaciones web a través de tecnologías como JavaServer Pages (JSP), Java Servlets y frameworks como Spring y Hibernate. En el ámbito empresarial, Java se utiliza para crear sistemas de gestión de bases de datos, aplicaciones de comercio electrónico, sistemas de gestión de contenido (CMS) y mucho más, lo que lo convierte en una herramienta fundamental en el mundo de la programación.</p>
+			<h2 class="h2">Aplicaciones</h2>
+			<p class="p">Java se utiliza en una variedad de aplicaciones, desde aplicaciones empresariales de gran escala hasta aplicaciones móviles y de escritorio. Es el lenguaje principal para el desarrollo de aplicaciones Android, lo que lo convierte en una opción popular para los desarrolladores móviles. Además, Java es ampliamente utilizado en el desarrollo de aplicaciones web a través de tecnologías como JavaServer Pages (JSP), Java Servlets y frameworks como Spring y Hibernate. En el ámbito empresarial, Java se utiliza para crear sistemas de gestión de bases de datos, aplicaciones de comercio electrónico, sistemas de gestión de contenido (CMS) y mucho más, lo que lo convierte en una herramienta fundamental en el mundo de la programación.</p>
 			
-			<h2>Caracteristicas</h2>
+			<h2 class="h2">Caracteristicas</h2>
 			<ul>
 				<li>Sencillo</li>
 				<li>Orientado a Objetos</li>
@@ -49,97 +50,97 @@
 		
 		<br>
 		
-		<section id="sec2" style="margin-left: 15px">
-			<h2>Estructura de un codigo en Java</h2>
-			<p>La primera línea de código de un archivo ".java", siempre es la sentencia package que indica el nombre del paquete sobre el cual se aloja la clase (Toda sentencia java finaliza en ";")</p>
-			<p>Posteriormente se define la clase como "public class (Nombre de la clase){". La palabra reservada class permite indicar que se esta definiendo una clase, toda clase debe incluir llaves "{}" que indican definen donde empieza y finaliza la definición de la clase</p>
-			<p>Las clases en java contienen metodos, un metodo es un espacio donde se puede escribir el código del cuerpo de un algoritmo. Toda clase java incluye el metodo "main()" debido a que Java busca una clase que tenga este método para iniciar la ejecución del código que está dentro de ese método. Es decir una aplicación java sin una clase que contenga el método main() nunca se ejecutará.</p>
+		<section id="sec2" class="sec">
+			<h2 class="h2">Estructura de un codigo en Java</h2>
+			<p class="p">La primera línea de código de un archivo ".java", siempre es la sentencia package que indica el nombre del paquete sobre el cual se aloja la clase (Toda sentencia java finaliza en ";")</p>
+			<p class="p">Posteriormente se define la clase como "public class (Nombre de la clase){". La palabra reservada class permite indicar que se esta definiendo una clase, toda clase debe incluir llaves "{}" que indican definen donde empieza y finaliza la definición de la clase</p>
+			<p class="p">Las clases en java contienen metodos, un metodo es un espacio donde se puede escribir el código del cuerpo de un algoritmo. Toda clase java incluye el metodo "main()" debido a que Java busca una clase que tenga este método para iniciar la ejecución del código que está dentro de ese método. Es decir una aplicación java sin una clase que contenga el método main() nunca se ejecutará.</p>
 			<img src="https://i.sstatic.net/mmlfa.png" alt="Main" style="width: 600px; height: 300px; border: 2px solid black">
 			
-			<h2>Clases</h2>
-			<p>Son contenedores especiales, tienen la capacidad de indicar qué representan, con que datos trabajan y que acciones pueden hacer. Por lo tanto, se definen usando sustantivos que permitan abarcar de manera coherente las capacidades mencionadas. Las llaves indican el inicio y fin del contenedor definido para la clase, es decir los componentes que se definan entre estas llaves pertenecen a la clase. </p>
-			<p>Las clases en Java son definidas en archivos de texto. Estos archivos tienen extensión .java. El nombre del archivo debe coincidir con el nombre de la clase. Java permite que se definan más de una clase en un único archivo con extensión .java. Cuando se presenta esta situación el nombre del archivo debe coincidir con el nombre de la única clase que se haya definido como public. Esto es, solo puede existir una clase pública en un archivo .java</p>
+			<h2 class="h2">Clases</h2>
+			<p class="p">Son contenedores especiales, tienen la capacidad de indicar qué representan, con que datos trabajan y que acciones pueden hacer. Por lo tanto, se definen usando sustantivos que permitan abarcar de manera coherente las capacidades mencionadas. Las llaves indican el inicio y fin del contenedor definido para la clase, es decir los componentes que se definan entre estas llaves pertenecen a la clase. </p>
+			<p class="p">Las clases en Java son definidas en archivos de texto. Estos archivos tienen extensión .java. El nombre del archivo debe coincidir con el nombre de la clase. Java permite que se definan más de una clase en un único archivo con extensión .java. Cuando se presenta esta situación el nombre del archivo debe coincidir con el nombre de la única clase que se haya definido como public. Esto es, solo puede existir una clase pública en un archivo .java</p>
 		</section>
 		
 		<br>
 		
-		<section id="sec3" style="margin-left: 15px">
-			<h2>Tipos de Datos en Java</h2>
+		<section id="sec3" class="sec">
+			<h2 class="h2">Tipos de Datos en Java</h2>
 			 
-			<h3>Tipos de Datos Primitivos</h3>
-			<p>Son definiciones dentro del lenguaje que no son objetos. Todos los tipos numéricos están firmados (esto significa que a pesar de no ser objetos representan el mismo tipo y alcance en cualquier plataforma que se ejecute). Los primitivos poseen valores por defecto y este valor depende del tipo de dato. </p>
+			<h3 class="h3">Tipos de Datos Primitivos</h3>
+			<p class="p">Son definiciones dentro del lenguaje que no son objetos. Todos los tipos numéricos están firmados (esto significa que a pesar de no ser objetos representan el mismo tipo y alcance en cualquier plataforma que se ejecute). Los primitivos poseen valores por defecto y este valor depende del tipo de dato. </p>
 			
-			<h3>Tipos de Datos Referenciados</h3>
-			<p>En Java, los objetos se crean (instancian) a partir de clases y en ese momento se almacenan en espacios de memoria. Java gestiona la dirección en memoria de estos objetos. Para acceder a ellos Java asigna a cada objeto creado una “referencia”.  Los elementos que permiten generar instancias (objetos) son las clases de la biblioteca de Java, las clases creadas por los programadores, las interfaces, los arreglos y las colecciones.</p>
+			<h3 class="h3">Tipos de Datos Referenciados</h3>
+			<p class="p">En Java, los objetos se crean (instancian) a partir de clases y en ese momento se almacenan en espacios de memoria. Java gestiona la dirección en memoria de estos objetos. Para acceder a ellos Java asigna a cada objeto creado una “referencia”.  Los elementos que permiten generar instancias (objetos) son las clases de la biblioteca de Java, las clases creadas por los programadores, las interfaces, los arreglos y las colecciones.</p>
 			<br>
 			
-			<table style="border: 2px solid black; background-color: #FFFFFF; color: black; text-align: center; width: 300px; border-collapse: collapse; margin: 0 auto">
+			<table class="tab">
 				<tr>
-					<td style="border: 1px solid black"><h3>Nombre</h3></td>
-					<td style="border: 1px solid black"><h3>Declaracion</h3></td>
+					<td class="td"><h3>Nombre</h3></td>
+					<td class="td"><h3>Declaracion</h3></td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Booleano</td>
-					<td style="border: 1px solid black">boolean</td>
+					<td class="td">Booleano</td>
+					<td class="td">boolean</td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Byte</td>
-					<td style="border: 1px solid black">byte</td>
+					<td class="td">Byte</td>
+					<td class="td">byte</td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Entero Pequeño</td>
-					<td style="border: 1px solid black">sort</td>
+					<td class="td">Entero Pequeño</td>
+					<td class="td">sort</td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Entero</td>
-					<td style="border: 1px solid black">int</td>
+					<td class="td">Entero</td>
+					<td class="td">int</td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Entero Largo</td>
-					<td style="border: 1px solid black">long</td>
+					<td class="td">Entero Largo</td>
+					<td class="td">long</td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Real</td>
-					<td style="border: 1px solid black">float</td>
+					<td class="td">Real</td>
+					<td class="td">float</td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Real Largo</td>
-					<td style="border: 1px solid black">double</td>
+					<td class="td">Real Largo</td>
+					<td class="td">double</td>
 				</tr>
 				<tr>
-					<td style="border: 1px solid black">Caracter</td>
-					<td style="border: 1px solid black">char</td>
+					<td class="td">Caracter</td>
+					<td class="td">char</td>
 				</tr>
 			</table>
 		</section>
 		
 	</main>
 	
-	<aside style="margin-left: 20px" >
-		<h2>Programacion General</h2>
-		<p>La programación es el proceso de diseñar, escribir, probar y mantener el código informático para crear software y aplicaciones informáticas. En términos generales, se refiere al conjunto de instrucciones que le damos a una computadora para que realice tareas específicas.</p>
+	<aside class="aside" >
+		<h2 class="h2">Programacion General</h2>
+		<p class="p">La programación es el proceso de diseñar, escribir, probar y mantener el código informático para crear software y aplicaciones informáticas. En términos generales, se refiere al conjunto de instrucciones que le damos a una computadora para que realice tareas específicas.</p>
 		
-		<h3>Lenguajes de programacion</h3>
-		<p>Son conjuntos de reglas y símbolos utilizados para escribir instrucciones que una computadora puede entender y ejecutar. Ejemplos de lenguajes de programación incluyen Python, Java, C++, C#, JavaScript, entre otros.</p>
+		<h3 class="h3">Lenguajes de programacion</h3>
+		<p class="p">Son conjuntos de reglas y símbolos utilizados para escribir instrucciones que una computadora puede entender y ejecutar. Ejemplos de lenguajes de programación incluyen Python, Java, C++, C#, JavaScript, entre otros.</p>
 	
-		<h3>Algoritmos</h3>
-		<p>Son secuencias ordenadas de pasos o instrucciones que describen cómo realizar una tarea o resolver un problema específico. Los algoritmos son la base sobre la cual se escriben programas de computadora.</p>
+		<h3 class="h3">Algoritmos</h3>
+		<p class="p">Son secuencias ordenadas de pasos o instrucciones que describen cómo realizar una tarea o resolver un problema específico. Los algoritmos son la base sobre la cual se escriben programas de computadora.</p>
 		
-		<h3>Paradigmas de Programacion</h3>
-		<p>on enfoques o estilos de programación que dictan cómo se estructuran y organizan los programas. Algunos ejemplos de paradigmas de programación son la programación orientada a objetos, la programación funcional y la programación estructurada.</p>
+		<h3 class="h3">Paradigmas de Programacion</h3>
+		<p class="p">on enfoques o estilos de programación que dictan cómo se estructuran y organizan los programas. Algunos ejemplos de paradigmas de programación son la programación orientada a objetos, la programación funcional y la programación estructurada.</p>
 		
 		<br>
-		<h2 style="text-decoration: underline; margin-left: 420px">Historia y conceptos claves de la programacion</h2>
-		<a href="https://syltec.es/blog/2021/10/05/programacion-un-poco-de-historia-y-conceptos-clave/" style="margin-left: 320px; padding: 40px">
-			<img src="https://syltec.es/blog/wp-content/uploads/2021/10/Dise%C3%B1o-sin-t%C3%ADtulo-8-1024x512.jpg" alt="Main" style="width: 600px; height: 300px; border: 2px solid black">
+		<h2 class="h2">Historia y conceptos claves de la programacion</h2>
+		<a href="https://syltec.es/blog/2021/10/05/programacion-un-poco-de-historia-y-conceptos-clave/" class="aImg">
+			<img src="https://syltec.es/blog/wp-content/uploads/2021/10/Dise%C3%B1o-sin-t%C3%ADtulo-8-1024x512.jpg" alt="InfoExtra" class="img">
 		</a>
 	</aside>
 		
-	<footer style="background-color: #092327; display: block; padding: 10px ; margin: 0">
-		<a href="lionelmessi10@gmail.com" style="text-decoration: none; color: white"><h3>Correo de Contancto: lionelmessi10@gmail.com</h3></a>
-		<a href="https://www.facebook.com/" style="text-decoration: none; color: white"><h3>Facebook</h3></a>
-		<a href="https://www.instagram.com/" style="text-decoration: none; color: white"><h3>Instagram</h3></a>
-		<a href="https://twitter.com/" style="text-decoration: none; color: white"><h3>Twitter</h3></a>
+	<footer id="footer">
+		<a href="lionelmessi10@gmail.com" class="aFooter"><h3 class="h3">Correo de Contancto: lionelmessi10@gmail.com</h3></a>
+		<a href="https://www.facebook.com/" class="aFooter"><h3 class="h3">Facebook</h3></a>
+		<a href="https://www.instagram.com/" class="aFooter"><h3 class="h3">Instagram</h3></a>
+		<a href="https://twitter.com/" class="aFooter"><h3 class="h3">Twitter</h3></a>
 	</footer>
 </body>
 </html>

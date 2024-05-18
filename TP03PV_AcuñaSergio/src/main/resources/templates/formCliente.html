@@ -3,27 +3,29 @@
 <head>
 <meta charset="UTF-8">
 <title>Formulario</title>
+<link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
 	
-	<header style="margin-left: 15px; text-decoration: underline">
+	<header id="headerForm">
 		<h1>Programacion Java</h1>
 	</header>
 	
-	<aside style="background-color: #092327; display: block; padding: 10px ; margin: 0">
-		<nav>
-			<ul style="list-style: none">
-				<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec1">¿Qué es Java?</a></li>
-	        	<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec2">Estructura de un codigo en Java</a></li>
-    	    	<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/index#sec3">Tipos de Datos en java</a></li>
-				<li style="display: inline-block; margin-right: 15px"><a style="text-decoration: none; color: white" href="/formulario">Formulario</a></li>
+	<aside>
+		<nav class="nav">
+			<ul>
+				<li class="li"><a class="a" href="/index#sec1">¿Qué es Java?</a></li>
+	        	<li class="li"><a class="a" href="/index#sec2">Estructura de un codigo en Java</a></li>
+    	    	<li class="li"><a class="a" href="/index#sec3">Tipos de Datos en java</a></li>
+				<li class="li"><a class="a" href="/formulario">Formulario</a></li>
 			</ul>
 		</nav>
 	</aside>
 	
-	<main>
+	<main class="main">
+	<div id="form-container">
 		<h1>Formulario de Datos</h1>
-		<form action="">
+		<form class="form">
 			<label for="dni">DNI: </label>
 			<input id="dni" type="number" placeholder="Ingrese el DNI" name="dni" required></input>
 			<br>
@@ -37,21 +39,18 @@
 			<br>
 			
 			<label for="nacimiento">Fecha de Nacimiento: </label>
-			<input id="nacimiento" type="date" placeholder="Ingrese Fecha de Nacimiento" name="nacimiento" required></input>
+			<input id="nacimiento" type="date" name="nacimiento" required></input>
 			<br>
 			
-			<div>
+			<div class="genero">
 				<label for="generoM">Masculino </label>
 				<input id="generoM" type="radio" value="Masculino" name="genero"></input>
-				<br>
 			
 				<label for="generoF">Femenino </label>
 				<input id="generoF" type="radio" value="Femenino" name="genero"></input>
-				<br>
 			
 				<label for="generoX">X </label>
 				<input id="generoX" type="radio" value="X" name="genero"></input>
-				<br>
 			</div>
 			
 			<label for="correoElectronico">Ingrese correo electronico: </label>
@@ -138,13 +137,14 @@
 			<input type="button" value="Cancelar"></input>
 			<input type="submit" value="Guardar"></input>
 		</form>
+	</div>
 	</main>
 	
-	<footer style="background-color: #092327; display: block; padding: 10px ; margin: 0">
-		<a href="lionelmessi10@gmail.com" style="text-decoration: none; color: white"><h3>Correo de Contancto: lionelmessi10@gmail.com</h3></a>
-		<a href="https://www.facebook.com/" style="text-decoration: none; color: white"><h3>Facebook</h3></a>
-		<a href="https://www.instagram.com/" style="text-decoration: none; color: white"><h3>Instagram</h3></a>
-		<a href="https://twitter.com/" style="text-decoration: none; color: white"><h3>Twitter</h3></a>
+	<footer id="footerForm">
+		<a href="lionelmessi10@gmail.com" class="aFooter"><h3 class="h3">Correo de Contancto: lionelmessi10@gmail.com</h3></a>
+		<a href="https://www.facebook.com/" class="aFooter"><h3 class="h3">Facebook</h3></a>
+		<a href="https://www.instagram.com/" class="aFooter"><h3 class="h3">Instagram</h3></a>
+		<a href="https://twitter.com/" class="aFooter"><h3 class="h3">Twitter</h3></a>
 	</footer>
 	
 </body>

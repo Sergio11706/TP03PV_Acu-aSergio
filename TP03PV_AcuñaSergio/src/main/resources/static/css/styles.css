@@ -1,0 +1,155 @@
+@charset "UTF-8";
+
+#header1 {
+	text-decoration: underline;
+	text-align: center;
+}
+
+#headerForm {
+	text-decoration: underline;
+	text-align: center;
+}
+.nav {
+	background-color: #092327; 
+	display: block; 
+	padding: 10px ; 
+	margin: 0;
+}
+
+.li {
+	display: inline-block; 
+	margin-right: 15px;
+}
+
+.a {
+	text-decoration: none; 
+	color: white;
+}
+
+.main {
+	font-family: cursive;
+	background-color: #104249;
+	padding: 10px;
+}
+
+body {
+	margin: 0; 
+	display: block; 
+	background-color: #175d75; 
+	color: white;
+}
+
+.sec {
+	margin-left: 15px;
+}
+
+.h2 {
+	font-family: Arial; 
+	font-size: 30px; 
+	Color: white; 
+	text-shadow: 0px 0px 9px #508AD3;
+}
+
+.h3 {
+	text-decoration: underline;
+}
+
+.p {
+	font-style: italic;
+}
+
+.tab {
+	border: 2px solid black; 
+	background-color: #FFFFFF; 
+	color: black; 
+	text-align: center; 
+	width: 300px; 
+	border-collapse: collapse; 
+	margin: 0 auto;
+}
+
+.td {
+	border: 1px solid black;
+}
+
+.aside {
+	margin-left: 15px;
+	font-family: cursive;
+}
+
+.aImg {
+	margin-left: 320px; padding: 40px;
+}
+
+.img {
+	width: 600px; 
+	height: 300px; 
+	border: 2px solid black;
+}
+
+#footer {
+	background-color: #092327; 
+	display: block; 
+	padding: 10px ;
+	margin: 0;
+}
+
+#footerForm {
+	background-color: #092327; 
+	display: block; 
+	padding: 10px ;
+	margin: 0;
+}
+
+.aFooter {
+	text-decoration: none; 
+	color: white;
+}
+
+#form-container{
+  max-width:700px;
+  margin: 0 auto;
+}
+
+.form{
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ }
+
+.form input{
+  width: 90%;
+  height: 30px;
+  margin: .5rem;
+  background-color: #afdfef;
+}
+
+.form textarea {
+	background-color: #afdfef;
+}
+
+.form button{
+  padding: .5em 1em;
+  border:none;
+  background: rgb(100,200,255);
+  cursor: pointer;
+}
+
+.form-element {
+  display: block;
+  width: 80%;
+  margin: 1rem auto;
+  
+}
+
+.genero {
+	display: inline-block;
+}
+
+.genero label {
+	display: inline-block;
+}
